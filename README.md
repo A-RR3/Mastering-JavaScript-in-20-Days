@@ -15,6 +15,8 @@ In this challenge, I am enhancing my JavaScript skills and knowledge. Each day, 
 ## Challenges
 
 - [Javascript algorithms and data structures](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/convert-celsius-to-fahrenheit)
+- [Using .lenght](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/use-bracket-notation-to-find-the-nth-to-last-character-in-a-string)
+- [Profile lookup](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/profile-lookup)
 
 
   
