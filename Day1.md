@@ -1,8 +1,14 @@
 **Table of Contents**
-
-[TOC]
+=====================
+* [Introduction](#Introduction)
+* [DOM](#DOM)
+* [Values & Datatypes](#Values-&-Datatypes)
+* [Operators](#Operators)
+* [Variables](#Variables)
 
 # Introduction
+This README file highlights some important notes from the [first course](https://frontendmasters.com/courses/javascript-first-steps/) on the basic topics about DOM, values & datatypes, operators and variables
+
 ## What is JavaScript
 - A dynamic programing language to modify and interact with html
 - TypeScript gets translated into javascript to run in the web browser
