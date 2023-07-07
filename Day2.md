@@ -4,6 +4,7 @@
 * [Expressions](#Expressions)
 * [Arrays](#Arrays)
 * [Objects](#Objects)
+* [Coding Exercises](#Coding-Exersices)
 
 # Introduction
 This README file highlights some important notes from the [first course](https://frontendmasters.com/courses/javascript-first-steps/) on expressions, arrays, objects
@@ -66,4 +67,45 @@ newSum : 11
 ```
 
 # Objects
-## Definition
+- In JavaScript an object is a standalone entity, with properties and type
+- examples on built-in objects : Document, array, console and math .Each with its built-in methods
+- Strings are primitive values (not objects) but JS automatically wraps them in String objects
+
+# Coding Exercises
+
+#### Exersice 1: [Profile Lookup](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/profile-lookup)
+```javascript
+function lookUpProfile(name, prop) {
+  for (let i = 0; i < contacts.length; i++) {
+    if (contacts[i].firstName === name) {
+      if (prop in contacts[i]) {
+        return contacts[i][prop];
+      } else {
+        return "No such property";
+      }
+    }
+  }
+  return "No such contact";
+}
+```
+#### Exersice 2: [Slice() Usage](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-data-structures/copy-array-items-using-slice)
+
+```javascript
+function forecast(arr) {
+  return arr.slice(2,4);
+}
+
+// do not change code below this line
+console.log(forecast(['cold', 'rainy', 'warm', 'sunny', 'cool', 'thunderstorms']));
+```
+#### Exersice 3: [Spread Operator](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-data-structures/combine-arrays-with-the-spread-operator)
+
+```javascript
+function spreadOut() {
+  let fragment = ["to", "code"];
+  let sentence = ["learning", ...fragment, "is", "fun"]; 
+  return sentence;
+}
+
+console.log(spreadOut());
+```
