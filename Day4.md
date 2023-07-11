@@ -5,6 +5,7 @@
 * [Event & Handlers](#Event-&-Handlers)
 * [Conditionals](#Conditionals)
 * [Map & Filter](#Map-&-Filter)
+* [Project](#Project)
 * [Coding Exercises](#Coding-Exercises)
 
 # Introduction
