@@ -1,8 +1,8 @@
 **Table of Contents**
 =====================
 * [Introduction](#Introduction)
-* [Data Fetching & Promises](#Data Fetching & Promises)
-* [Destructuring Data](#Destructuring Data)
+* [Data Fetching & Promises](#Data-Fetching-&-Promises)
+* [Destructuring Data](#Destructuring-Data)
 * [Async](#Async)
 * [Modules](#Modules)
 
